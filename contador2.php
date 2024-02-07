@@ -7,5 +7,5 @@
         $num = $_SESSION['num'];
     }
     $_SESSION['num']=++$num;
-
+    echo "numero:  " $num;
 ?>
